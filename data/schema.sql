@@ -34,7 +34,7 @@ CREATE TABLE productos(
     id_producto integer NOT NULL PRIMARY KEY AUTO_INCREMENT,
     producto varchar(20) NOT NULL,
     precio float NOT NULL,
-    existencias integer NOT NULL,
+    existencias integer NOT NULL
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO users (username, password, privilege, status, name, email, other_data, user_hash, change_pwd)
